@@ -137,7 +137,7 @@ body {
     position: relative; 
     margin-left: 340px;
     border-style: solid;
-    ;
+    
 
 }
 .row:after {
@@ -146,3 +146,23 @@ body {
     clear: both;
 }
 
+section {
+    border-style: solid;
+    float: left;
+    width: 328px;
+    background-color: rgba(60, 60, 177, 0.596);
+
+}
+
+section header {
+
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+.buttons p {
+    text-align: center;
+    
+}
