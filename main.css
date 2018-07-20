@@ -3,55 +3,44 @@
     height: 350px;
     background-color: rgba(60, 60, 177, 0.596);
     position: absolute;
-     
-    
     display: block;
 }
 
 .page-title {
-
     font-weight: bold;
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     margin-top: 240px;
     margin-left: 270px;
-    }
+}
 
 .profile-picture {
-
     border-width: thick;
     background-color: rgba(60, 60, 177, 0.596);
-    width: 200px; 
+    width: 200px;
     height: 200px;
     border: black;
     margin-top: 180px;
-    margin-left: 30px; 
+    margin-left: 30px;
     position: absolute;
-    
 }
 
 .website {
-    color:white;
+    color: white;
     margin-top: 10px;
     margin-left: 270px;
-    
-    
-    
-
 }
 
 header div p {
-
     text-align: left;
- 
 }
 
 .links {
     position: absolute;
     width: 850px;
     height: 50px;
-    background-color: white; 
+    background-color: white;
     margin-top: 350px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
@@ -59,12 +48,12 @@ header div p {
 }
 
 .buttons {
-    background-color:white; 
+    background-color: white;
     color: black;
     font-size: 16px;
     border-style: solid;
-    width: 50px; 
-    height: 30px; 
+    width: 50px;
+    height: 30px;
     margin-top: 300px;
     margin-left: 550px;
     position: absolute;
@@ -72,28 +61,25 @@ header div p {
 }
 
 .follow {
-
-    background-color:white; 
+    background-color: white;
     color: black;
     font-size: 16px;
     border-style: solid;
-    width: 50px; 
-    height: 30px; 
+    width: 50px;
+    height: 30px;
     margin-top: 300px;
     margin-left: 650px;
     position: absolute;
     text-align: center;
-
 }
 
 .message {
-
-    background-color:white; 
+    background-color: white;
     color: black;
     font-size: 16px;
     border-style: solid;
-    width: 70px; 
-    height: 30px; 
+    width: 70px;
+    height: 30px;
     margin-top: 300px;
     margin-left: 700px;
     position: absolute;
@@ -101,12 +87,12 @@ header div p {
 }
 
 .bullets {
-    background-color:white; 
+    background-color: white;
     color: black;
     font-size: 16px;
     border-style: solid;
-    width: 50px; 
-    height: 30px; 
+    width: 50px;
+    height: 30px;
     margin-top: 300px;
     margin-left: 760px;
     position: absolute;
@@ -114,55 +100,41 @@ header div p {
 }
 
 body {
-
     margin: auto;
     width: 50%;
 }
 
-
 .column1 {
     float: left;
     width: 50%;
-    background-color:white;
+    background-color: white;
     width: 328px;
-    margin-top:400px;
-    border-style: solid; 
+    border-style: solid;
+    color: blue;
+    border-color: black;
 }
 
-.column2{
-    float: left;
+.column2 {
+    float: right;
     width: 50%;
     background-color: white;
     width: 512px;
-    position: relative; 
-    margin-left: 340px;
+    position: relative;
     border-style: solid;
-    
-
-}
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-section {
-    border-style: solid;
-    float: left;
-    width: 328px;
-    background-color: rgba(60, 60, 177, 0.596);
-
-}
-
-section header {
-
-    font-size: 20px;
-    text-align: center;
-    padding: 10px;
-    color: white;
 }
 
 .buttons p {
     text-align: center;
-    
 }
+
+.row {
+    position: absolute;
+    margin-top: 500px;
+    
+    width: 850px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
