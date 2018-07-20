@@ -238,3 +238,17 @@ p {
     
    
 }
+
+
+.box3 {
+
+    
+    width: 50%;
+    background-color: white;
+    width: 328px;
+    border-style: solid;
+    border-color: black;
+    margin-top: 50px;
+    
+    
+}
