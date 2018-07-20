@@ -15,13 +15,20 @@
     margin-left: 270px;
 }
 
-.profile-picture {
-    border-width: thick;
-    background-color: rgba(60, 60, 177, 0.596);
+.myface {
+
     width: 200px;
     height: 200px;
-    border: black;
-    margin-top: 180px;
+    
+}
+
+.profile-picture {
+    border-width: thick;
+    
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    margin-top: 130px;
     margin-left: 30px;
     position: absolute;
 }
@@ -44,7 +51,8 @@ header div p {
     margin-top: 350px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
-    margin-left: 250px;
+    margin-left: 0px;
+    border-style: solid;
 }
 
 .buttons {
@@ -102,6 +110,7 @@ header div p {
 body {
     margin: auto;
     width: 50%;
+    background-color: rgba(170, 170, 170, 0.247);
 }
 
 .column1 {
@@ -118,8 +127,10 @@ body {
     width: 50%;
     background-color: white;
     width: 512px;
-    position: relative;
+    position: absolute;
     border-style: solid;
+    margin-left: 338px;
+    height: 300px;
 }
 
 .buttons p {
@@ -142,10 +153,21 @@ p {
 .image1 {
 
     background-color: rgba(60, 60, 177, 0.596);
-    width: 512px;
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    border-style: solid;
+    margin-top: 20px;
+    
+    
+}
+
+.image1 img {
+
+    width: 50px;
     height: 50px;
     
-    
+
 }
 
 .column2 p {
@@ -185,4 +207,34 @@ p {
     font-weight: bold;
     margin-left: 7px;
 
+}
+
+.links p {
+
+    margin-left: 270px;
+}
+
+.websitelink  {
+
+
+    font-size: 12px;
+    color: rgba(60, 60, 177, 0.596);
+}
+
+.box1 {
+
+    background-color: rgba(60, 60, 177, 0.596);
+    width: 512px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.column2 p {
+
+    margin-left: 100px;
+    width: 500px;
+    position: absolute;
+    margin-top: 50px;
+    
+   
 }
