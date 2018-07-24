@@ -1,7 +1,12 @@
+:root {
+    --main-bg-color: rgba(60, 60, 177, 0.596);
+    --primary-font: Helvetica;
+}
+
 .header {
     width: 850px;
     height: 350px;
-    background-color: rgba(60, 60, 177, 0.596);
+    background-color: var(--main-bg-color);
     position: absolute;
     display: block;
 }
@@ -9,22 +14,19 @@
 .page-title {
     font-weight: bold;
     font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--primary-font);
     color: white;
     margin-top: 240px;
     margin-left: 270px;
 }
 
 .myface {
-
     width: 200px;
     height: 200px;
-    
 }
 
 .profile-picture {
     border-width: thick;
-    
     width: 200px;
     height: 200px;
     border-style: solid;
@@ -49,7 +51,7 @@ header div p {
     height: 50px;
     background-color: white;
     margin-top: 350px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--primary-font);
     text-align: left;
     margin-left: 0px;
     border-style: solid;
@@ -111,6 +113,7 @@ body {
     margin: auto;
     width: 50%;
     background-color: rgba(170, 170, 170, 0.247);
+    font-family: var(--primary-font);
 }
 
 .column1 {
@@ -133,15 +136,24 @@ body {
     height: 300px;
 }
 
+.column3 {
+    float: left;
+    width: 50%;
+    background-color: white;
+    top: 175px;
+    width: 328px;
+    border-style: solid;
+    border-color: black;
+    position: absolute;
+}
+
 .buttons p {
     text-align: center;
-
 }
 
 .row {
     position: absolute;
     margin-top: 500px;
-    
     width: 850px;
 }
 
@@ -149,25 +161,18 @@ p {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
 .image1 {
-
-    background-color: rgba(60, 60, 177, 0.596);
+    background-color: var(--main-bg-color);
     width: 50px;
     height: 50px;
     margin-left: 20px;
     border-style: solid;
     margin-top: 20px;
-    
-    
 }
 
 .image1 img {
-
     width: 50px;
     height: 50px;
-    
-
 }
 
 .column2 p {
@@ -179,7 +184,6 @@ p {
     text-align: center;
     position: absolute;
     margin-left: 5px;
-
 }
 
 .follow p {
@@ -203,26 +207,20 @@ p {
 }
 
 .column1 p {
-
     font-weight: bold;
     margin-left: 7px;
-
 }
 
 .links p {
-
     margin-left: 270px;
 }
 
-.websitelink  {
-
-
+.websitelink {
     font-size: 12px;
     color: rgba(60, 60, 177, 0.596);
 }
 
 .box1 {
-
     background-color: rgba(60, 60, 177, 0.596);
     width: 512px;
     height: 200px;
@@ -230,25 +228,25 @@ p {
 }
 
 .column2 p {
-
     margin-left: 100px;
     width: 500px;
     position: absolute;
     margin-top: 50px;
-    
-   
 }
 
-
 .box3 {
-
-    
     width: 50%;
     background-color: white;
     width: 328px;
     border-style: solid;
     border-color: black;
     margin-top: 50px;
-    
-    
+}
+
+.column3 p {
+    margin-left: 7px;
+}
+
+a {
+    color: var(--main-bg-color);
 }
